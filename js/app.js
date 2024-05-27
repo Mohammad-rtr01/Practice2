@@ -45,3 +45,18 @@ if(i % 2 == 1){
 
 
 }
+
+
+
+
+
+function isPrime(num) {
+
+let i = 2 ;
+while (num % i != 0) {
+  i++
+}
+
+return num == i ? true : false ;
+
+}
